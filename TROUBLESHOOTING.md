@@ -44,12 +44,12 @@ fvm flutter doctor
 - **対策**:
   - はみ出しているウィジェットを `Expanded` または `Flexible` でラップして制約を与えるか、`SingleChildScrollView` を導入してスクロール可能にしてください。
 
-### 3-2. Android Emulator または iOS Simulator が認識されない
+### 3-2. Android Emulator が認識されない
 
 - **対策**:
-  - [macOS 用]: `open -a Simulator` コマンドでシミュレータを直接起動してください。
-  - [Windows 用]: Android Studio の「Device Manager」から仮想デバイスを明示的に起動してください。
+  - Android Studio の「Device Manager」から仮想デバイスを明示的に起動してください。
   - **IDEの確認**: エディタ右下のデバイス選択メニューから、正しいターゲットが選択されているか確認してください。
+  - **エミュレータ再起動**: エミュレータが起動しているにもかかわらず認識されない場合は、エミュレータを再起動してください。
 
 ---
 
@@ -69,6 +69,6 @@ fvm flutter doctor
 
 **ナビゲーション:**
 
-- ← 前へ: [よくある質問 (FAQ)](./FAQ.md)
+- ← 前へ: なし
 - [学習教材インデックスに戻る](./INDEX.md)
-- 次へ: [外部学習リソース集](./RESOURCES.md) →
+- 次へ: なし（参考資料）
