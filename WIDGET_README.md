@@ -16,8 +16,12 @@ Flutterには主に2種類のウィジェットがあります：
 
 **Q: どちらを使うべき？**
 
-- ユーザーの操作やデータ変化によってUIが変わるなら → StatefulWidget
 - 変わらない静的な表示なら → StatelessWidget
+- ユーザーの操作やデータ変化によってUIが変わるなら → StatefulWidget
+
+```dart
+// ただし、widgetを独立させ、分離したクラスに関しては、StatelessWidgetを使用しましょう、理由はネストされたwidgetの為、親がStatefullである以上、親依存になる為です。
+```
 
 ### 1-2. 基本的なウィジェット構造
 
