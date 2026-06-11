@@ -7,7 +7,7 @@
 - **ガイドライン名**: vant_text_book
 - **目的**: Flutter学習教材
 
-## プロジェクト構成
+## ガイドライン構成
 
 ```
 vant_text_book/
